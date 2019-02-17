@@ -1,0 +1,14 @@
+Feature AreaLink
+
+  Do a link to a user to a available area
+
+  Background: Logger user
+    Given I am logged into system
+    Then I my access in system is granted
+
+  Scenario: Area Link
+
+    Given I click in "Area link" tab
+    When a area to link
+    Then Link must be successful
+    And the message "Operação Concluída com Sucesso" must be showed

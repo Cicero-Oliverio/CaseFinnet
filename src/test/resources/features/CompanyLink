@@ -1,0 +1,17 @@
+Feature: CompanyLink
+
+  Link between a user and at least one company
+
+  Background: Logger user
+    Given I am logged into system
+    Then I my access in system is granted
+
+  Scenario: Company Link
+
+    Given I click in "Company link" tab
+    When a company to link
+    Then Link must be successful
+    And the message "Operação Concluída com Sucesso" must be showed
+
+
+
