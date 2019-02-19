@@ -1,4 +1,4 @@
-package Utils;
+package utils;
 
 import java.io.File;
 import net.sourceforge.tess4j.Tesseract;

@@ -1,7 +1,7 @@
 package stepDefinitions;
 
 
-import Utils.CreateChrome;
+import utils.CreateChrome;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
@@ -16,7 +16,7 @@ public class ValidLogin {
 
   @Given(value = "I am in the site http://showroom-painelfornecedor.finnet.com.br")
   public void iAmInTheSiteHttpShowroomPainelfornecedorFinnetComBr() {
-    navigator.get("http://showroom-painelfornecedor.finnet.com.br/?ctr=home");
+    navigator.get("http://showroom-painelfornecedor.finnet.com.br");
   }
 
   @When(value = "I click on \"Acesso ao Cliente\"")
